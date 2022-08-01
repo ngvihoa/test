@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "name": "getregex",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "pdf-page-counter": "^1.0.3",
+        "pdf2pic": "^2.1.4"
+    }
+}

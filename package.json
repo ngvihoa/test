@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "version": "0.0.0",
+    "name": "document-analysis",
+    "workspaces": {
+        "packages": [
+            "api",
+            "ocr",
+            "web",
+            "getregex"
+        ],
+        "nohoist": []
+    },
+    "scripts": {
+        "start": "wsrun --parallel start"
+    },
+    "devDependencies": {
+        "prettier": "^2.7.1",
+        "wsrun": "^5.2.4"
+    }
+}

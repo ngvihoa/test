@@ -1,0 +1,4 @@
+# Editor specific
+.vscode
+
+node_modules
